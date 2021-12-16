@@ -10,7 +10,7 @@ import org.junit.Test;
 public class testSelectionSort {
         public static void sort(int arr[]){
         	 int N = arr.length;
-
+           //initialized j = 0
              int i, j=0, pos, temp;
 
              for (i = 0; i < N; i++)
